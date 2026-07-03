@@ -1,0 +1,22 @@
+insert into lessons (id, grade, lesson_order, title, description, image_url, audio_url, video_url) values
+('g1-hello', 1, 1, 'Hello', 'Cho hi bn mi', 'https://placehold.co/900x540', '/audio/hello.mp3', 'https://www.youtube.com/embed/dQw4w9WgXcQ'),
+('g1-colors', 1, 2, 'Colors', 'Nhn bit mu sc', 'https://placehold.co/900x540', '/audio/colors.mp3', 'https://www.youtube.com/embed/dQw4w9WgXcQ'),
+('g1-numbers', 1, 3, 'Numbers', 'm s t 1 n 10', 'https://placehold.co/900x540', '/audio/numbers.mp3', 'https://www.youtube.com/embed/dQw4w9WgXcQ'),
+('g1-school-things', 1, 4, 'School Things', ' dng hc tp', 'https://placehold.co/900x540', '/audio/school-things.mp3', 'https://www.youtube.com/embed/dQw4w9WgXcQ'),
+('g1-family', 1, 5, 'Family', 'Gia nh ca b', 'https://placehold.co/900x540', '/audio/family.mp3', 'https://www.youtube.com/embed/dQw4w9WgXcQ'),
+('g1-animals', 1, 6, 'Animals', 'Con vt quen thuc', 'https://placehold.co/900x540', '/audio/animals.mp3', 'https://www.youtube.com/embed/dQw4w9WgXcQ'),
+('g1-body-parts', 1, 7, 'Body Parts', 'B phn c th', 'https://placehold.co/900x540', '/audio/body-parts.mp3', 'https://www.youtube.com/embed/dQw4w9WgXcQ'),
+('g1-toys', 1, 8, 'Toys', ' chi yu thch', 'https://placehold.co/900x540', '/audio/toys.mp3', 'https://www.youtube.com/embed/dQw4w9WgXcQ'),
+('g1-food', 1, 9, 'Food', 'Mn n hng ngy', 'https://placehold.co/900x540', '/audio/food.mp3', 'https://www.youtube.com/embed/dQw4w9WgXcQ'),
+('g1-review-1', 1, 10, 'Review', 'n tp lp 1', 'https://placehold.co/900x540', '/audio/review.mp3', 'https://www.youtube.com/embed/dQw4w9WgXcQ'),
+('g2-greetings', 2, 1, 'Greetings', 'Cho hi t nhin hn', 'https://placehold.co/900x540', '/audio/greetings.mp3', 'https://www.youtube.com/embed/dQw4w9WgXcQ'),
+('g2-numbers-11-20', 2, 2, 'Numbers 11-20', 'm s t 11 n 20', 'https://placehold.co/900x540', '/audio/numbers-11-20.mp3', 'https://www.youtube.com/embed/dQw4w9WgXcQ'),
+('g2-actions', 2, 3, 'Actions', 'Hnh ng n gin', 'https://placehold.co/900x540', '/audio/actions.mp3', 'https://www.youtube.com/embed/dQw4w9WgXcQ'),
+('g2-my-classroom', 2, 4, 'My Classroom', 'Lp hc ca em', 'https://placehold.co/900x540', '/audio/my-classroom.mp3', 'https://www.youtube.com/embed/dQw4w9WgXcQ'),
+('g2-my-house', 2, 5, 'My House', 'Ngi nh ca em', 'https://placehold.co/900x540', '/audio/my-house.mp3', 'https://www.youtube.com/embed/dQw4w9WgXcQ'),
+('g2-clothes', 2, 6, 'Clothes', 'Qun o', 'https://placehold.co/900x540', '/audio/clothes.mp3', 'https://www.youtube.com/embed/dQw4w9WgXcQ'),
+('g2-weather', 2, 7, 'Weather', 'Thi tit', 'https://placehold.co/900x540', '/audio/weather.mp3', 'https://www.youtube.com/embed/dQw4w9WgXcQ'),
+('g2-likes', 2, 8, 'Likes', 'iu b thch', 'https://placehold.co/900x540', '/audio/likes.mp3', 'https://www.youtube.com/embed/dQw4w9WgXcQ'),
+('g2-simple-questions', 2, 9, 'Simple Questions', 'Cu hi n gin', 'https://placehold.co/900x540', '/audio/simple-questions.mp3', 'https://www.youtube.com/embed/dQw4w9WgXcQ'),
+('g2-review-2', 2, 10, 'Review', 'n tp lp 2', 'https://placehold.co/900x540', '/audio/review.mp3', 'https://www.youtube.com/embed/dQw4w9WgXcQ')
+on conflict (id) do nothing;
